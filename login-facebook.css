@@ -1,19 +1,41 @@
-
-#boton-facebook{
-	background: url('login-facebook.png');
-	background-size: 100%;
-	background-repeat: no-repeat;
+.FacebookButton{
+	background-color: #3B579D;
 	color: #fff;
-	display: table-cell;
 	border-radius: 3px;
-	padding: 5px 0px 5px 0px;
-	cursor: pointer;
-	height: 84px;
-	width: 300px;
+	height: 50px;
+	width: 205px;
+	padding: 0;
+	margin: 0;
 	text-transform: none;
-	vertical-align: center;
+	cursor: pointer;
+	font-size: 16px;
+
 }
-#boton-facebook:hover{ 
-    transform:scale(1.1,1.1);
-    -webkit-transform:scale(1.1,1.1);
+
+.FacebookButton2{
+	background: #3B579D;
+	border-radius: 3px;
+	margin:0;
+	cursor: pointer;
+	height: 46px;
+	width: 82px;
+}
+
+.icono {
+	width: 35px;
+	height: 28px;
+}
+
+.desconectar{
+	background: grey;
+}
+
+#logout{
+	background-color: #04334a;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	color: white;
+	text-transform: none;
+
 }
